@@ -1,0 +1,31 @@
+{
+  "name": "capitalized",
+  "version": "1.0.0",
+  "description": "Returns true if a string’s first letter is uppercase.",
+  "keywords": [
+    "string",
+    "uppercase",
+    "capitalized",
+    "capitalization"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/capitalized",
+  "repository": "lamansky/capitalized",
+  "main": "index.js",
+  "files": [],
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
